@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSERA</title>
+    <link rel="shortcut icon" href="./download.jfif" type="image/x-icon">
+    <style>
+        *{
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.cadinfo{
+    text-align: center;
+    padding: 2rem 0rem;
+}
+.title{
+    text-align: left;
+    font: size 2rem;
+    background-color: grey;
+    padding: 1rem 2rem;
+    border:  1px solid black;
+}
+.city{
+    text-align: center;
+    font-size: 2rem;
+}
+.los{
+    background-color: grey;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Food,LLC</h2>
+        <h2 class="cadinfo">Our Menu</h2>
+        <div class="los">
+            <h2 class="city">chicken</h2>
+            <p class="class">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi cupiditate deleniti numquam velit dolorem. Qui consequuntur blanditiis placeat, in ipsam libero aliquid accusamus dolor veniam voluptatum? Ipsum ab ipsam tempora nostrum a vel adipisci minima sint tempore saepe exercitationem laborum debitis aut ex aliquam alias nisi dolorum mollitia laudantium unde sunt, earum assumenda. Accusamus quibusdam illum totam ex labore rerum facere, eos, beatae delectus omnis quo repellat laudantium temporibus consequuntur ipsum neque nam. Maxime, officiis aspernatur delectus mollitia ea error. Delectus numquam quia reprehenderit amet, hic earum temporibus molestias non consequuntur adipisci odit expedita odio veritatis, illo esse, dolorem iste voluptates! Aperiam exercitationem officia quaerat sed ratione animi, nisi nemo perferendis eveniet aspernatur dolores minima voluptatibus? Labore delectus repellat inventore corrupti, adipisci sequi itaque et repellendus? Excepturi quia voluptas modi deserunt, consequatur ratione placeat sed provident nulla quis ex, praesentium cum ab, omnis accusantium cupiditate. Laudantium dolorum voluptatem cumque possimus porro. Eligendi laudantium ipsum corrupti, labore accusamus officia dolore assumenda quasi sed mollitia ipsam quibusdam? Iure a voluptatem, soluta similique expedita facere quasi temporibus! Officiis dicta possimus dignissimos corrupti modi vero voluptatum mollitia numquam temporibus, voluptatibus, nemo ullam, commodi amet voluptatem asperiores sed quas minus at laudantium? Dignissimos, illum enim.</p>
+        </div>
+    </div>
+</body>
+</html>
