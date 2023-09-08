@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSERA</title>
+    
+    <style>
+        *{
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.container{
+    padding: 1rem 2rem;
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.cadcant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.cad{
+    border: 1px solid #000;
+    position: relative;
+    padding: 0;
+    background-color: grey;
+}
+.cadtitle{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+    color: grey;
+    padding: 0.5rem 1rem;
+    border: 1px solid #000;
+}
+.cadinfo{
+    padding: 3rem 1rem 1rem;
+color: black;
+}
+.los{
+background-color: blue;
+}
+.boy{
+    background-color: pink;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="title">Our Menu</h3>
+        <div class="cadcant">
+            <div class="cad">
+                <p class="cadtitle">chicken</p>
+                <p class="cadinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, reprehenderit similique velit deleniti quibusdam explicabo impedit sed eaque molestiae delectus molestias quos ipsam a ad tempora laborum, voluptatibus, excepturi possimus.</p>
+            </div>
+            <div class="cad">
+                <p class="cadtitle los">beef</p>
+                <p class="cadinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, reprehenderit similique velit deleniti quibusdam explicabo impedit sed eaque molestiae delectus molestias quos ipsam a ad tempora laborum, voluptatibus, excepturi possimus.</p>
+            </div>
+            <div class="cad">
+                <p class="cadtitle boy">sushi</p>
+                <p class="cadinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, reprehenderit similique velit deleniti quibusdam explicabo impedit sed eaque molestiae delectus molestias quos ipsam a ad tempora laborum, voluptatibus, excepturi possimus.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
